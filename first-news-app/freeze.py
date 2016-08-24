@@ -3,6 +3,7 @@ from app import app, get_csv
 from app import app
 
 freezer = Freezer(app)
+app.config['FREEZER_RELATIVE_URLS'] = True
 
 
 @freezer.register_generator
