@@ -1,4 +1,4 @@
-My first news app
+My First News App
 =================
 
 Completion of the [My First News App](http://first-news-app.readthedocs.io/) tutorial.
@@ -22,9 +22,10 @@ Deploy
 
 ```
 python freeze.py
-git checkout gh-pages
-git merge master
-git push origin gh-pages
+git add .
+git commit -m "New build"
+git push origin master
+git subtree push --prefix first-news-app/build origin gh-pages
 ```
 
-https://<yourusername>.github.io/first-news-app/build/
+https://<yourusername>.github.io/first-news-app/
