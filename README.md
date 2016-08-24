@@ -28,4 +28,4 @@ git push origin master
 git subtree push --prefix first-news-app/build origin gh-pages
 ```
 
-https://<yourusername>.github.io/first-news-app/
+https://`yourusername`.github.io/first-news-app/
