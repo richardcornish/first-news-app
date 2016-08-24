@@ -3,6 +3,8 @@ My First News App
 
 Completion of the [My First News App](http://first-news-app.readthedocs.io/) tutorial.
 
+I tried to clean it up with some basic packaging, removing the build from master, and pushing the build to the [`gh-pages` branch](https://github.com/richardcornish/first-news-app/tree/gh-pages).
+
 Install
 -------
 
