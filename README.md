@@ -25,7 +25,7 @@ python freeze.py
 git add .
 git commit -m "New build"
 git push origin master
-git subtree push -f --prefix first-news-app/build origin gh-pages
+git subtree push --prefix first-news-app/build origin gh-pages
 ```
 
 https://`yourusername`.github.io/first-news-app/
